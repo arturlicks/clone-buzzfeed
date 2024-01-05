@@ -3,6 +3,7 @@ import quiz_questions from "../../../assets/data/quiz_questions.json"
 
 @Component({
   selector: 'app-quiz',
+  standalone: true,
   templateUrl: './quiz.component.html',
   styleUrls: ['./quiz.component.css']
 })
