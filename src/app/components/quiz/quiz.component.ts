@@ -1,9 +1,11 @@
 import { Component, OnInit } from '@angular/core';
+import { CommonModule } from '@angular/common';
 import quiz_questions from "../../../assets/data/quiz_questions.json"
 
 @Component({
   selector: 'app-quiz',
   standalone: true,
+  imports: [CommonModule],
   templateUrl: './quiz.component.html',
   styleUrls: ['./quiz.component.css']
 })
